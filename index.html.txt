@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BrightWay LED Street Lights</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laksh Marketing & Solutions</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+        header { background: #003366; color: white; padding: 20px; text-align: center; }
+        nav { background: #0055a5; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        section { padding: 40px 20px; }
+        footer { background: #003366; color: white; text-align: center; padding: 20px; }
+        img.logo { width: 200px; }
+        .section-img { max-width: 100%; height: auto; border-radius: 8px; margin: 20px 0; }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body>
+    <header>
+        <img src="drop.png" alt="Laksh Marketing & Solutions Logo" class="logo">
+        <h1>Welcome to Laksh Marketing & Solutions</h1>
+    </header>
 
-  <!-- Header -->
-  <header class="bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-green-600">BrightWay</h1>
-      <nav class="space-x-4">
-        <a href="#" class="hover:text-green-600">Home</a>
-        <a href="#products" class="hover:text-green-600">Products</a>
-        <a href="#about" class="hover:text-green-600">About</a>
-        <a href="#contact" class="hover:text-green-600">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-  <!-- Hero Section -->
-  <section class="bg-green-50 py-20">
-    <div class="max-w-6xl mx-auto px-4 text-center">
-      <h2 class="text-4xl font-extrabold text-green-700 mb-4">Illuminate Your Streets Efficiently</h2>
-      <p class="text-lg mb-6">Explore our range of energy-efficient LED street lights built for performance and sustainability.</p>
-      <a href="#products" class="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition">View Products</a>
-    </div>
-  </section>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Your trusted partner in innovative marketing solutions.</p>
+        <img src="https://via.placeholder.com/800x300?text=Welcome+to+Laksh+Marketing" class="section-img" alt="Welcome Banner">
+        <p>We provide strategic and creative marketing services tailored to your business needs.</p>
+        <p>For more details contact us on WhatsApp: 9666337178</p>
+    </section>
 
-  <!-- Products Section -->
-  <section id="products" class="py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h3 class="text-3xl font-bold mb-8 text-center">Our LED Street Lights</h3>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Product Card -->
-        <div class="bg-white shadow-md rounded-xl p-6 text-center">
-          <img src="https://via.placeholder.com/150" alt="Light A" class="mx-auto mb-4">
-          <h4 class="text-xl font-semibold">EcoLite 40W</h4>
-          <p class="mt-2 text-gray-600">Ideal for residential streets with low energy consumption.</p>
-        </div>
-        <div class="bg-white shadow-md rounded-xl p-6 text-center">
-          <img src="https://via.placeholder.com/150" alt="Light B" class="mx-auto mb-4">
-          <h4 class="text-xl font-semibold">PowerBeam 80W</h4>
-          <p class="mt-2 text-gray-600">Designed for highways and industrial roads.</p>
-        </div>
-        <div class="bg-white shadow-md rounded-xl p-6 text-center">
-          <img src="https://via.placeholder.com/150" alt="Light C" class="mx-auto mb-4">
-          <h4 class="text-xl font-semibold">SmartGlow 60W</h4>
-          <p class="mt-2 text-gray-600">Smart sensor lights for modern city infrastructure.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <p>Explore our wide range of marketing and promotional products.</p>
+        <img src="https://via.placeholder.com/800x300?text=Our+Products" class="section-img" alt="Products">
+        <ul>
+            <li>Digital Marketing Packages</li>
+            <li>Social Media Campaigns</li>
+            <li>SEO Optimization</li>
+            <li>Branding Materials</li>
+        </ul>
+        <p>For more details contact us on WhatsApp: 9666337178</p>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="bg-white py-16">
-    <div class="max-w-5xl mx-auto px-4 text-center">
-      <h3 class="text-3xl font-bold mb-6">About BrightWay</h3>
-      <p class="text-gray-700">At BrightWay, we aim to brighten the world responsibly. Our LED street lighting solutions are eco-friendly, cost-effective, and built to last. With years of experience in lighting technology, we serve municipalities and private sectors alike.</p>
-    </div>
-  </section>
+    <section id="features">
+        <h2>Features</h2>
+        <p>Why choose Laksh Marketing & Solutions?</p>
+        <img src="https://via.placeholder.com/800x300?text=Our+Features" class="section-img" alt="Features">
+        <ul>
+            <li>Customized Marketing Plans</li>
+            <li>Experienced Team</li>
+            <li>Result-Driven Approach</li>
+            <li>24/7 Client Support</li>
+        </ul>
+        <p>For more details contact us on WhatsApp: 9666337178</p>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="bg-green-100 py-16">
-    <div class="max-w-4xl mx-auto px-4 text-center">
-      <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
-      <p class="mb-6">Looking for a custom lighting solution or need a quote? We'd love to hear from you.</p>
-      <a href="mailto:info@brightwayled.com" class="text-green-700 underline">info@brightwayled.com</a>
-    </div>
-  </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Let's grow together!</p>
+        <img src="https://via.placeholder.com/800x300?text=Contact+Us" class="section-img" alt="Contact">
+        <p>Slogans:</p>
+        <ul>
+            <li>"Innovate. Market. Grow."</li>
+            <li>"Your Success, Our Strategy."</li>
+            <li>"Marketing Made Simple."</li>
+        </ul>
+        <p>For more details contact us on WhatsApp: 9666337178</p>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-white py-6 border-t mt-8 text-center text-sm text-gray-500">
-    © 2025 BrightWay LED Lights. All rights reserved.
-  </footer>
-
+    <footer>
+        <p>&copy; 2025 Laksh Marketing & Solutions</p>
+    </footer>
 </body>
 </html>
 
